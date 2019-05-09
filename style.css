@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+.navbar{
+  width: 100%;
+  background-color: blue;
+  overflow: hidden;
+  height: 80px;
+}
+li{
+  padding: 8px 0 0 0;
+  list-style: none;
+  color content: blue
+
+}
+
+
+}
