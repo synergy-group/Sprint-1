@@ -2,18 +2,26 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: white;
+  background-image:url('image22.jpg');
+  background-repeat: no-repeat;
+  background-size:1500px 750px;
+  opacity: .8;
+  text: white;
+}
+p{
+  color: black;
+  font-size: bold;
 }
 .navbar{
   width: 100%;
-  background-color: blue;
+  background-color: navy;
   overflow: hidden;
   height: 80px;
 }
 li{
   padding: 8px 0 0 0;
   list-style: none;
-  color content: blue
+  color content: red;
 
 }
 
