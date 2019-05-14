@@ -48,34 +48,3 @@ p{
   background-color: grey;
   color: white;
 }
-
-
-.navbar .icon {
-  display: none;
-}
-}
-.clearfix{
-  clear: both;
-}
-
-
-}
-@media(max-width: 1200px)
-{
-  .navbar
-  {
-    margin: 20px;
-
-}
-}
-@media(max-width: 768px)
-{
-  .menu-toggle
-  {
-    display: block;
-    width: 40px;
-height: 40px;
-    margin: 10px;
-    background: white;
-    float: right;
-    cursor: pointer;
