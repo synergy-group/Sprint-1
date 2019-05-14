@@ -5,12 +5,12 @@ body{
   background-image:url('image22.jpg');
   background-repeat: no-repeat;
   background-size:1500px 750px;
-  opacity: .8;
-  text: white;
+    text: white;
 }
 p{
-  color: black;
+  color:black;
   font-size: bold;
+  margin: 20px;
 }
 
 .logo img{
@@ -22,10 +22,7 @@ p{
 .navbar {
   background-color: blue;
   overflow: hidden;
-
 }
-
-
 .navbar a {
   float: left;
   display: block;
@@ -35,10 +32,7 @@ p{
   text-decoration: none;
   font-size: 17px;
   text-transform: uppercase;
-
 }
-
-
 .navbar a:hover {
   background-color: #ddd;
   color: black;
@@ -47,4 +41,22 @@ p{
 .active {
   background-color: grey;
   color: white;
+  }
+h1{
+  background-color:#000066;
+  text-align: center;
+  color: white;
+
+}
+h2{
+  margin: 20px;
+
+}
+ a:hover {
+background-color: powderblue;
+color: red;
+}
+a{
+  color: blue;
+  margin: 20px;
 }
