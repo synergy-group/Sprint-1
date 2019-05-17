@@ -7,7 +7,43 @@ body{
   background-size:1500px 750px;
   background-blend-mode:darken;
 }
-h1{
+
+  .logo img{
+    height: 100px;
+    float: left;
+    width: 200px;
+
+  }
+
+  .navbar {
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 30px 28px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: grey;
+    color: white;
+    }
+
+
+
+h3{
   font-style: italic;
   text-align: center;
 }
@@ -18,47 +54,8 @@ p{
   color: black;
   line-height: 30px;
   margin: 15px;
-
 }
 
-<<<<<<< HEAD
-.logo img{
-  height: 100px;
-=======
-.navbar{
-  width: 100%;
-  background-color: navy;
-  overflow: hidden;
-  height: 80px;
->>>>>>> a866bf47a5450003a51e5730b7b38b71f0e437f9
-  float: left;
-  width: 200px;
-
-}
-
-.navbar {
-  background-color: red;
-  overflow: hidden;
-}
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align:center;
-  padding: 30px 28px;
-  text-decoration: none;
-  font-size: 17px;
-  text-transform: uppercase;
-}
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.active {
-  background-color: grey;
-  color: white;
-  }
 h1{
   background-color:#000066;
   text-align: center;
@@ -69,12 +66,7 @@ h1{
   margin: 0px;
   padding: 0px;
 }
-body1{
-  font-family: Arial;
-}
-.main{
 
-}
 .cards{
   width:15%;
   display: inline-block;
