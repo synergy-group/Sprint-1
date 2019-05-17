@@ -16,7 +16,7 @@ body{
   }
 
   .navbar {
-    background-color: red;
+    background-color: grey;
     overflow: hidden;
     width: 100%;
 
@@ -30,6 +30,7 @@ body{
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
+
   }
   .navbar a:hover {
     background-color: #ddd;
