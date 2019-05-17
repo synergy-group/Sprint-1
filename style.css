@@ -2,16 +2,25 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image:url('image22.jpg');
+  background-image:url('clockbackground4.jpg');
   background-repeat: no-repeat;
   background-size:1500px 750px;
-  opacity: .8;
-  text: white;
+  background-blend-mode:darken;
+}
+h1{
+  font-style: italic;
+  text-align: center;
+}
+h2{
+  text-align: center;
 }
 p{
   color: black;
-  font-size: bold;
+  line-height: 30px;
+  margin: 15px;
+
 }
+
 .navbar{
   width: 100%;
   background-color: navy;
@@ -25,5 +34,56 @@ li{
 
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body1{
+  font-family: Arial;
+}
+.main{
+
+}
+.cards{
+  width:15%;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 30px;
+  box-shadow: 2px 2px 10px grey;
+}
+.image{
+  overflow:hidden;
+}
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  transition: all 1.5s ease;
+}
+.image:hover img{
+  transform: scale(1.5);
+}
+.title{
+  text-align: center;
+  padding: 5px;
+}
+.des{
+  text-align: center;
+  padding: 5px;
+}
+.btn {
+  margin-top: 20px;
+}
+.button{
+  background-color: white;
+  border: 1px solid black;
+  padding: .5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
 
 }
