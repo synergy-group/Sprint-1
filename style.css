@@ -26,12 +26,37 @@ p{
   background-color: navy;
   overflow: hidden;
   height: 80px;
-}
-li{
-  padding: 8px 0 0 0;
-  list-style: none;
-  color content: red;
+  float: left;
 
+}
+
+.navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 30px 28px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+  }
+h1{
+  background-color:#000066;
+  text-align: center;
+  color: white;
 }
 
 *{
@@ -86,4 +111,12 @@ body1{
   color: white;
   transition: .5s;
 
+}
+ a:hover {
+background-color: powderblue;
+color: red;
+}
+a{
+  color: blue;
+  margin: 20px;
 }
