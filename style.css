@@ -14,13 +14,14 @@ p{
 }
 
 .logo img{
-  height: 80px;
+  height: 100px;
   float: left;
+  width: 200px;
 
 }
 
 .navbar {
-  background-color: blue;
+  background-color: red;
   overflow: hidden;
 }
 .navbar a {
