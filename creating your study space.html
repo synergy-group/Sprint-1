@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <meta charset="utf-8">
     <title>managing your studies</title>
-    <style>
-body {background-color: powderblue; }
-h1   {color: blue;}
-p    {color: red;}
-
-</style>
   </head>
   <body>
-  <h1>Creating your study space</h1>
-Your study space is critical to your ability to study effectively. This doesn't
+    <div class="navbar" id="navbar">
+      <div class="logo">
+        <img src="cdulogo.jpg" alt="cdu.jpg"></div>
+
+      <a href="http://www.cdu.edu.au/" class="Active">Home</a>
+      <a href="http://stapps.cdu.edu.au/pls/apex/f?p=100:30:3329404811806764">Courses</a>
+      <a href="http://www.cdu.edu.au/library">Library</a>
+      <a href="http://online.cdu.edu.au/">Learnline</a>
+      <a href="https://www.cdu.edu.au/contact-cdu">Contact us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
+<div class="content-container">
+
+    <h4>Managing your studies</h4>
+  <h5>Creating your study space</h5>
+<p4>Your study space is critical to your ability to study effectively. This doesn't
  necessarily imply that you have to find a place that's completely silent and
  set it up as your study area, but it does mean you should find a place to study
   that fits your specific personality  learning style Creating a study environment
@@ -21,10 +31,62 @@ Your study space is critical to your ability to study effectively. This doesn't
    studies. Checking the personal resources available   to you at home, at
     university and other places, as well as within yourself, can reveal any
     aspects you need to focus on. These resources could include a
-     space to work, equipment, support people and your own skills, attitudes and
-      study habits. This section shares ideas on creating your work space,
-      organising resources and doing your best to ensure you don’t lose your
-      work by backing it up and using anti-virus software.
+     space to work, equipment, support people and your own skills </p4>
+
+
+      <iframe src="https://r3---sn-npoe7ne7.googlevideo.com/videoplayback?id=o-AOVGi_kcSJUAz1WynMoUv8dmahtLF5unSbIdnRiTh4WC&itag=22&source=youtube&requiressl=yes&pl=16&ei=RZTeXKKJGpmXkwb434-wBw&mime=video%2Fmp4&ratebypass=yes&dur=333.926&lmt=1542102894943562&fvip=3&c=WEB&txp=5431432&ip=54.202.31.17&ipbits=0&expire=1558112421&sparams=dur,ei,expire,id,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,pl,ratebypass,requiressl,source&signature=631966FBA4D1F9B3E32A419DB2B8A80B060B86F7.11F4B85D3DDE9F63DE3E172EFEB7E61AE19FDFF2&key=cms1&redirect_counter=1&cm2rm=sn-nx5lk7s&fexp=23813260&req_id=9631225c1593a3ee&cms_redirect=yes&mip=138.80.117.248&mm=34&mn=sn-npoe7ne7&ms=ltu&mt=1558090673&mv=m"></iframe>
+
+
+
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">read more</button>
+        <div id="myDropdown" class="dropdown-content">
+<h5>creating your study space</h5>
+          <p4>Make sure your study area is comfortable. It is very important to
+             set up your computer and chair in a way that won't harm your hands,
+              wrists and neck. Make sure Your chair and monitor are the right height
+              and lend themselves to a proper ergonomic position for hours of
+              comfortable studying. </p4>
+              <p4>Evaluate your personality and preferences. Discover whether or
+                 not you are vulnerable to noise and other distractions. Also
+                 determine if you work better by sitting quietly for a long period
+                  of time or if you need to take short breaks once in awhile and
+                   then return to your work.</p4>
+                   <h5>Organising your resources</h5>
+                   <p>stop using bindersInstead of using binders or paper files, set up digital files. On your computer, create a folder and name it with this school year. Then, within this main folder, create a separate folder for each type of resource you would normally save as a paper file.
+
+Scan the resources that pass the test from number one and save each into its appropriate folder. Save a copy to a personal flash drive so that you have your resources with you at both home and work.</p>
+ <a href="http://learnline.cdu.edu.au/studyskills/studyskills/studyspace.html#p7APMc1_2">organise your work.</a>
+   <h5>Dont loose your work</h5>
+ <p>Having a backup of your work is the most important thing you can do to protect your data.
+    We provide recommendations for personal computers and Reed-owned computers below.
+Just storing your files in a different location than your operating system isn't enough; you need to create regular backups of your files.
+</p>
+
+        </div>
+      </div>
+</div>
+
+      <script>
+
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
 
   </body>
 </html>
