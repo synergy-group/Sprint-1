@@ -6,7 +6,10 @@ body{
   background-repeat: no-repeat;
   background-size:1500px 750px;
   background-blend-mode:darken;
+
 }
+
+
 
   .logo img{
     height: 100px;
@@ -68,15 +71,29 @@ h1{
   padding: 0px;
 }
 
+
+.main{
+  display:inline-flex;
+  margin: 20px;
+
+
+}
+
+.main_2{
+  display: inline-flex;
+}
+
 .cards{
-  width:15%;
+  min-width: 300px;
+  width: 25%;
   display: inline-block;
   border-radius: 5px;
-  margin: 100px;
+  margin: 60px;
   box-shadow: 2px 2px 10px grey;
 }
 .image{
   overflow:hidden;
+  height: 45%;
 }
 .image img{
   width: 100%;
