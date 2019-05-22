@@ -2,9 +2,6 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image:url('clockbackground4.jpg');
-  background-repeat: no-repeat;
-  background-size:1500px 750px;
   background-blend-mode:darken;
 
 }
