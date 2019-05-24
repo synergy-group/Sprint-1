@@ -41,6 +41,16 @@ body{
     background-color: grey;
     color: white;
     }
+  .card1{
+  min-width: 300px;
+  width: 25%;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 90px;
+  box-shadow: 2px 2px 10px grey;
+
+}
+
 
 
 
