@@ -89,12 +89,14 @@ h1{
 .main{
   display:inline-flex;
   margin: 20px;
-
+  height:550px;
 
 }
 
 .main_2{
   display: inline-flex;
+  margin: 20px;
+  height:550px;
 }
 
 .cards{
