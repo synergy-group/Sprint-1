@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  padding: 0;
+  padding-top: 10rem;
   font-family: sans-serif;
   background-blend-mode:darken;
 }
@@ -83,6 +83,7 @@ header nav ul a{
 }
 
 }
+
   .card1{
   min-width: 300px;
   width: 25%;
