@@ -275,6 +275,7 @@ h1 {
 h2 {
   margin: 0 0 .5em;
   font-weight: normal;
+
 }
 
 input {
@@ -381,7 +382,7 @@ input:checked~.tab-content {
   width: 25%;
 }
 
-/*experiment closes*/
+
 @media(max-width: 640px) {
   .xyz {
     width: 100%;
