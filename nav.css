@@ -1,9 +1,10 @@
 body {
   margin: 0;
-  padding-top: 7.5rem;
+  padding-top: 9rem;
   font-family: sans-serif;
   background-blend-mode: darken;
 }
+
 
 header {
   position: absolute;
