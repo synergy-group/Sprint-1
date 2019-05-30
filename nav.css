@@ -52,6 +52,12 @@ header nav ul li a:hover {
   display: block;
 }
 
+
+
+.time_manage{
+  padding-top:7.5rem;
+}
+
 .menu-toggle {
   color: black;
   float: right;
